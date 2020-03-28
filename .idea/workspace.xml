@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c054025-7a10-4f84-9af0-8b30dd284f12" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zjr34c0Qa8l4ANpnYVGrCeWW9f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="macowins.Main" />
+      <module name="Macowins" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c054025-7a10-4f84-9af0-8b30dd284f12" name="Default Changelist" comment="" />
+      <created>1585363141342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585363141342</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="768" y="275" width="374" height="564" key="#com.intellij.ide.util.MemberChooser" timestamp="1585418026765">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="768" y="275" width="374" height="564" key="#com.intellij.ide.util.MemberChooser/0.32.1920.1048@0.32.1920.1048" timestamp="1585418026765" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1585418519057">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.32.1920.1048@0.32.1920.1048" timestamp="1585418519057" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1585418519057">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.32.1920.1048@0.32.1920.1048" timestamp="1585418519057" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1585418519057">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.32.1920.1048@0.32.1920.1048" timestamp="1585418519057" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1585418519057">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.32.1920.1048@0.32.1920.1048" timestamp="1585418519057" />
+    <state x="449" y="191" width="1022" height="732" key="SettingsEditor" timestamp="1585363385855">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="449" y="191" width="1022" height="732" key="SettingsEditor/0.32.1920.1048@0.32.1920.1048" timestamp="1585363385855" />
+    <state x="621" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1585410996802">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="621" y="383" key="com.intellij.ide.util.TipDialog/0.32.1920.1048@0.32.1920.1048" timestamp="1585410996802" />
+    <state x="313" y="73" width="1283" height="904" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.inPresentationMode" timestamp="1585363203190">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="313" y="73" width="1283" height="904" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.inPresentationMode/0.32.1920.1048@0.32.1920.1048" timestamp="1585363203190" />
+    <state x="623" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1585412204167">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state x="623" y="263" width="672" height="678" key="search.everywhere.popup/0.32.1920.1048@0.32.1920.1048" timestamp="1585412204167" />
+  </component>
+</project>
