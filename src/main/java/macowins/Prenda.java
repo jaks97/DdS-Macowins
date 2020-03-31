@@ -1,17 +1,11 @@
 package macowins;
 
 public class Prenda {
-    protected double precioBase;
+    private double precioBase;
     public enum TipoPrenda {
-        SACO{
-            public String toString() { return "Saco"; }
-        },
-        PANTALON{
-            public String toString() { return "Pantalón"; }
-        },
-        CAMISA{
-            public String toString() { return "Camisa"; }
-        },
+        SACO,
+        PANTALON,
+        CAMISA,
     }
 
     private TipoPrenda tipo; // Quizás usar un enum no es la mejor idea. Pero decidí hacerlo así porque el enunciado no plantea comportamiento diferente para cada prenda.
@@ -25,7 +19,7 @@ public class Prenda {
 
     public Prenda(TipoPrenda tipo, double precioBase, EstadoPrenda estado) {
         this.tipo = tipo;
-        this.precioBase = precioBase;;
+        this.precioBase = precioBase;
         this.estado = estado;
     }
 
