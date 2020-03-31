@@ -13,10 +13,6 @@ public class Prenda {
 
     private EstadoPrenda estado;
 
-    public TipoPrenda getTipo() {
-        return tipo;
-    }
-
     public Prenda(TipoPrenda tipo, double precioBase, EstadoPrenda estado) {
         this.tipo = tipo;
         this.precioBase = precioBase;
