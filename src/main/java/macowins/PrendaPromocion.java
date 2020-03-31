@@ -8,6 +8,6 @@ public class PrendaPromocion implements EstadoPrenda {
     }
 
     public double precioModificado(double precioBase) {
-        return precioBase;
+        return precioBase - descuento;
     }
 }
