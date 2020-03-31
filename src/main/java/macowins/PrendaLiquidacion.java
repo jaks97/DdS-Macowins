@@ -1,12 +1,7 @@
 package macowins;
 
-public class PrendaLiquidacion extends Prenda {
-    public PrendaLiquidacion(TipoPrenda tipo, double precio_base) {
-        super(tipo, precio_base);
-    }
-
-    @Override
-    public double precio(){
-        return this.precio_base / 2;
+public class PrendaLiquidacion implements EstadoPrenda {
+    public double precioModificado(double precioBase) {
+        return precioBase / 2;
     }
 }

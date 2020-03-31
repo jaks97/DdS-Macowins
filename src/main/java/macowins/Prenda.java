@@ -1,7 +1,7 @@
 package macowins;
 
-public abstract class Prenda {
-    protected double precio_base;
+public class Prenda {
+    protected double precioBase;
     public enum TipoPrenda {
         SACO{
             public String toString() { return "Saco"; }
@@ -17,14 +17,18 @@ public abstract class Prenda {
     private TipoPrenda tipo; // Quizás usar un enum no es la mejor idea. Pero decidí hacerlo así porque el enunciado no plantea comportamiento diferente para cada prenda.
                              // Hacer clases para cada tipo de prenda en ese caso me parecia demasiado.
 
+    private EstadoPrenda estado;
+
     public TipoPrenda getTipo() {
         return tipo;
     }
 
-    public Prenda(TipoPrenda tipo, double precio_base) {
+    public Prenda(TipoPrenda tipo, double precioBase) {
         this.tipo = tipo;
-        this.precio_base = precio_base;
+        this.precioBase = precioBase;
     }
 
-    public abstract double precio();
+    public double precio() {
+        return estado.precioModificado(precioBase);
+    }
 }

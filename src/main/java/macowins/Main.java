@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Main {
 
     public static void main(String[] args) {
-	    // Instancio Macowins
+	    /*// Instancio Macowins
         Macowins macowins = new Macowins();
 
         // Creo algunas prendas y las agrego
@@ -33,7 +33,7 @@ public class Main {
         macowins.vender(venta2);
 
         // Chequeo las ganancias del dia
-        System.out.println("\nGanancias del dia: $ " + macowins.obtenerGanancias(LocalDate.now()));
+        System.out.println("\nGanancias del dia: $ " + macowins.obtenerGanancias(LocalDate.now()));*/
     }
 
 
