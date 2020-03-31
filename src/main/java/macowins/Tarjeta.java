@@ -1,19 +1,16 @@
 package macowins;
 
-public class VentaTarjeta extends Venta {
+import java.util.List;
+
+public class Tarjeta implements MedioPago {
     private int cuotas;
     private static final double COEFICIENTE = 0.5;
 
-    public VentaTarjeta(int cuotas) {
-        super();
+    public Tarjeta(int cuotas) {
         this.cuotas = cuotas;
     }
 
-    public double recargoCuotas() {
+    public double recargo(List<Prenda> prendas) {
         return cuotas * COEFICIENTE + prendas.stream().mapToDouble((Prenda prenda) -> prenda.precio() * 0.01).sum();
-    }
-
-    public double precio() {
-        return super.precio() + recargoCuotas();
     }
 }

@@ -23,9 +23,10 @@ public class Prenda {
         return tipo;
     }
 
-    public Prenda(TipoPrenda tipo, double precioBase) {
+    public Prenda(TipoPrenda tipo, double precioBase, EstadoPrenda estado) {
         this.tipo = tipo;
-        this.precioBase = precioBase;
+        this.precioBase = precioBase;;
+        this.estado = estado;
     }
 
     public double precio() {
