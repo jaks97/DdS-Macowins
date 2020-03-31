@@ -16,6 +16,9 @@ public class Macowins {
         return obtenerVentas(fecha).mapToDouble((Venta venta) -> venta.precio()).sum();
     }
 
+    /**
+     * Devuelve una coleccion con las ventas realizadas en una fecha determinada
+     */
     public Stream<Venta> obtenerVentas(LocalDate fecha){
         return ventas.stream().filter((Venta venta) -> venta.getFecha().equals(fecha));
     }

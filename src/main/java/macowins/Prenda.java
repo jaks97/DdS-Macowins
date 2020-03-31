@@ -19,6 +19,9 @@ public class Prenda {
         this.estado = estado;
     }
 
+    /**
+     * Devuelve el precio con los descuentos ya aplicados
+     */
     public double precio() {
         return estado.precioModificado(precioBase);
     }

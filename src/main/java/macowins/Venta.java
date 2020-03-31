@@ -21,6 +21,9 @@ public class Venta {
         return fecha;
     }
 
+    /**
+     * Devuelve la sumatoria de los precios de cada prenda con el recargo segun el medio de pago ya aplicado
+     */
     public double precio() {
         return prendas.stream().mapToDouble(Prenda::precio).sum() + medioDePago.recargo(prendas);
     }
